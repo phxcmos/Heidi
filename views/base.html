@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Phoenix Chinese Community">
+    <title>{{ title }}</title>
+
+    <link rel="stylesheet" href="/static/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/css/custom.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">
+                    <img src="/static/assets/brand/logo.png" width="30" height="30" class="d-inline-block align-top" alt=""> 凤城聚合
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./">首页
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">跳蚤市场</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#">工作</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#">租房</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#">同城</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="search-trigger" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    {% block main %} {% endblock %}
+    <footer id="footer" class="footer">
+        <div class="container">
+        <div class="row">
+            <div class="cell well well--l">
+                <div class="g">
+                    <div class="g-b g-b--m--1of2">
+                        <div class="g g--s">
+                            <div class="g-b g-b--m--1of2 g-b--xl--1of3">
+                                <ul class="footer-list list mbs mbm--xl">
+                                    <li class="list-item oph twb">凤城聚合</li>
+                                    <li class="list-item">
+                                        <a class="footer-list-link list-item-link" href="/learn">Courses</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="footer-list-link list-item-link" href="/screencasts">Screencasts</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="footer-list-link list-item-link" href="/blog">Blog</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="footer-list-link list-item-link" href="/pricing">Pricing</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="footer-list-link list-item-link" href="/pricing/business">For Business</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="g-b g-b--m--1of2 g-b--xl--1of3">
+                                <ul class="footer-list list mbs mbm--xl">
+                                    <li class="list-item oph twb">关于我们</li>
+                                    <li class="list-item">
+                                        <a class="footer-list-link list-item-link" href="/about">Company</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="footer-list-link list-item-link" href="/jobs">Jobs</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="footer-list-link list-item-link" href="/press">Press</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="footer-list-link list-item-link" href="/terms">Terms of Use</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="footer-list-link list-item-link" href="/privacy">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="g-b g-b--xl--1of3">
+                                <ul class="footer-list list mbm">
+                                    <li class="list-item oph twb">帮助</li>
+                                    <li class="list-item">
+                                        <a class="footer-list-link list-item-link" href="/contact">Contact Us</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="footer-list-link list-item-link" href="/support">Knowledge Base</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="footer-list-link list-item-link" href="/discuss/">Forum</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="footer-copyright footer-copyright--east">© 2018 CMOS Tech LLC. Crafted lovingly in Phoenix, Arizona.</p>
+
+                    </div>
+                    <div class="g-b g-b--m--1of2">
+                        <div class="footer-about">
+                            <div class="mbm">
+                                <img alt="凤城聚合" class="mrm" width="32" height="32" src="/static/assets/brand/logo.png">
+                                <a href="https://itunes.apple.com/us/app/code-school/id927194858?mt=8">
+                                    <img alt="Download in the App Store" width="135" height="40" src="/static/assets/logos/logo-app-store-331fa155842ca4eac6fa69bdfb731cd8f110a04ef4079b842758e517158c0291.svg">
+                                </a>
+                            </div>
+                            <p class="pts tss">
+                                <strong>凤城聚合</strong> 华人社区生活平台 teaches web technologies in the comfort of your browser with video lessons,
+                                coding challenges, and screencasts. We strive to help you learn by doing.
+                            </p>
+                            <div class="mbm mbl--m">
+                                <a class="link link--underline tss" href="/about">Learn More</a>
+                            </div>
+                            <a rel="tooltip" title="" data-placement="right" aria-label="Leave to pluralsight.com" href="http://www.pluralsight.com/"
+                                data-original-title="Visit pluralsight.com">
+                                <img alt="Pluralsight" class="db mbs mbf--m" src="/static/assets/logos/logo-pluralsight-gray-aabf17376e35e285b0d8726d8422bc5a8cea1d307c9bee47d1956537752fdfa9.svg">
+                            </a>
+                            <a title="TRUSTe Privacy Certification" class="fr" target="_blank" href="https://privacy.truste.com/privacy-seal/validation?rid=c0423e68-cb98-4cad-bfb9-0c97166bb786">
+                                <img alt="TRUSTe Privacy Certification" src="https://privacy-policy.truste.com/privacy-seal/seal?rid=c0423e68-cb98-4cad-bfb9-0c97166bb786">
+                            </a>
+                            <p class="footer-copyright footer-copyright--south">© 2018 Code School LLC. Crafted lovingly in Orlando, Florida.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+</body>
+
+</html>
