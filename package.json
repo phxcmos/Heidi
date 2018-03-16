@@ -1,11 +1,16 @@
 {
+    "name": "heidi",
+    "version": "1.0.0",
+    "private": true,
     "dependencies": {
         "koa": "2.4.1",
         "koa-router": "",
-        "koa-bodyparser": "",
+        "koa-bodyparser": "4.2.0",
         "nunjucks": "",
         "mime": "",
         "mz": "",
-        "koa-favicon": ""
+        "koa-favicon": "",
+        "sequelize": "4.37.0",
+        "mysql": "2.15.0"
     }
 }
